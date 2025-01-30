@@ -64,6 +64,8 @@ export default function Home() {
           <img src="/Swap.png" alt="Switch" className="w-[24px] h-[24px]" />
         </div>
         <Image src="/Drop - Off.png" alt="Drop-Off" width={500} height={132} className="max-w-full" />
+
+        ADVERTISING SECTION DOESNOT BE VISIBLE
       </section>
 
       <h2 className="ml-9 text-2xl font-bold text-gray-800 mb-6">Most Popular</h2>
