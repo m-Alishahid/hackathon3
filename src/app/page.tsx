@@ -53,12 +53,21 @@ export default function Home() {
 
 
 
-     <section>
+    <section>
         <div className="text-6xl font-black text-blue-500 items-center justify-center flex">
           Hello world of rental
+
+        </div>
+        <div>
+          <Image src={"/Ads 1.png"} alt="car" width={600} height={360}/>
+          <Image src={"/Ads 2.png"} alt="car" width={600} height={360}/>
+          <Image src={"/Pick - Up.png"} alt="car" width={600} height={360}/>
+          <Image src={"/Swap.png"} alt="car" className="w-[24px] h-[24px]"/>
+          <Image src={"/Drop - Off.png"} alt="car" width={600} height={360}/>
         </div>
 
       </section>
+
 
 
 
