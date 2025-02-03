@@ -51,22 +51,7 @@ export default function Home() {
       {/* Navbar with search functionality */}
       <Navbar onSearch={handleSearch} />
 
-      {/* Advertising Section */}
-      <section id="block1" className="w-full flex flex-wrap sm:flex-nowrap gap-4 sm:gap-8 justify-center items-center">
-        <Image src="/Ads 1.png" alt="Ad 1" width={600} height={360} className="max-w-full" />
-        <Image src="/Ads 2.png" alt="Ad 2" width={600} height={360} className="max-w-full" />
-      </section>
-
-      {/* Pickup and Drop-off Section */}
-      <section id="block2" className="w-full flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8">
-        <Image src="/Pick - Up.png" alt="Pick-Up" width={500} height={132} className="max-w-full" />
-        <div className="w-[60px] h-[60px] bg-blue-600 hover:bg-blue-500 rounded-lg flex items-center justify-center">
-          <img src="/Swap.png" alt="Switch" className="w-[24px] h-[24px]" />
-        </div>
-        <Image src="/Drop - Off.png" alt="Drop-Off" width={500} height={132} className="max-w-full" />
-
-        ADVERTISING SECTION DOESNOT BE VISIBLE
-      </section>
+     
 
       <h2 className="ml-9 text-2xl font-bold text-gray-800 mb-6">Most Popular</h2>
 
