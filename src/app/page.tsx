@@ -51,6 +51,20 @@ export default function Home() {
       {/* Navbar with search functionality */}
       <Navbar onSearch={handleSearch} />
 
+
+
+     <section>
+        <div className="text-6xl font-black text-blue-500 items-center justify-center flex">
+          Hello world of rental
+        </div>
+
+      </section>
+
+
+
+
+      
+      
      
 
       <h2 className="ml-9 text-2xl font-bold text-gray-800 mb-6">Most Popular</h2>
