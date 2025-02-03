@@ -25,7 +25,7 @@ const Navbar: FC<NavbarProps> = ({ onSearch }) => {
   );
 
   return (
-    <nav className="absolute top-0 h-auto w-full flex flex-wrap items-center justify-between px-4 py-4 bg-white shadow-sm">
+    <nav className="absolute top-0 h-auto w-full flex flex-wrap items-center justify-between px-4 py-4 pr-32 bg-white shadow-sm">
       {/* Logo Section */}
       <div className=" ml-8 logo-container w-[120px] h-[40px] flex-shrink-0">
 
