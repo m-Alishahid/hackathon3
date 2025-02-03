@@ -47,26 +47,33 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div  className="bg-[#f6f7f9] min-h-screen p-4 sm:p-6 lg:p-20 flex flex-col gap-10 font-[family-name:var(--font-geist-sans)]">
       {/* Navbar with search functionality */}
       <Navbar onSearch={handleSearch} />
 
 
 
-    <section>
-        <div className="text-6xl font-black text-blue-500 items-center justify-center flex">
-          Hello world of rental
-
-        </div>
-        <div>
-          <Image src={"/Ads 1.png"} alt="car" width={600} height={360}/>
-          <Image src={"/Ads 2.png"} alt="car" width={600} height={360}/>
-          <Image src={"/Pick - Up.png"} alt="car" width={600} height={360}/>
-          <Image src={"/Swap.png"} alt="car" className="w-[24px] h-[24px]"/>
-          <Image src={"/Drop - Off.png"} alt="car" width={600} height={360}/>
-        </div>
-
+   
+      <section id="block1" className=" w-full flex flex-wrap sm:flex-nowrap gap-4 sm:gap-8 justify-center items-center">
+        <Image src={"/Ads 1.png"} alt="" width={600} height={360} className="max-w-full" />
+        <Image src={"/Ads 2.png"} alt="" width={600} height={360} className="max-w-full" />
       </section>
+
+
+      <section id="block2" className="w-full flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8">
+        <Image src={"/Pick - Up.png"} alt="" width={500} height={132} className="max-w-full" />
+
+
+
+        {/* switch */}
+        <div className="w-[60px] h-[60px] bg-blue-600 hover:bg-blue-500 rounded-lg flex items-center justify-center">
+          <img src="/Swap.png" alt="Switch" className="w-[24px] h-[24px]" />
+        </div>
+
+
+        <Image src={"/Drop - Off.png"} alt="" width={500} height={132} className="max-w-full" />
+      </section>
+
 
 
 
