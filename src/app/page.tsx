@@ -54,13 +54,13 @@ export default function Home() {
 
 
    
-      <section id="block1" className=" w-full flex flex-wrap sm:flex-nowrap gap-4 sm:gap-8 justify-center items-center">
+      <section className=" w-full flex flex-wrap sm:flex-nowrap gap-4 sm:gap-8 justify-center items-center">
         <Image src={"/Ads 1.png"} alt="" width={600} height={360} className="max-w-full" />
         <Image src={"/Ads 2.png"} alt="" width={600} height={360} className="max-w-full" />
       </section>
 
 
-      <section id="block2" className="w-full flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8">
+      <section className="w-full flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8">
         <Image src={"/Pick - Up.png"} alt="" width={500} height={132} className="max-w-full" />
 
 
